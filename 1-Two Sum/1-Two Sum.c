@@ -39,7 +39,7 @@ int main() {
     struct IntVector result = twoSum(nums, target);
 
     printf("Indices of two numbers: %d, %d\n", result.data[0], result.data[1]);
-    free(result.data); // Remember to free the allocated memory
+    free(result.data); //free the allocated memory
 
     return 0;
 }
